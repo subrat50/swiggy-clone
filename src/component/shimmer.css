@@ -1,0 +1,20 @@
+.resturant_Card{
+      width: 377px;
+  background-color: white;
+  overflow: hidden;
+   border-radius: 0.375rem;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     
+    position: relative;
+    top: 82px;
+
+}
+#resturant_body{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  gap:1rem;
+  position: relative;
+  top: 14px;
+}

@@ -1,0 +1,18 @@
+  .resturant_Card{
+      width: 377px;
+  background-color: white;
+  overflow: hidden;
+   border-radius: 0.375rem;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card_img{
+  width: 377px;
+}
+.card-title{
+    position: relative;
+    left: 8px;
+}
+.card-text{
+    position: relative;
+    left: 8px;
+}

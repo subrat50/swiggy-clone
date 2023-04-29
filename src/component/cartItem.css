@@ -1,0 +1,32 @@
+.cartItems {
+  top: 6rem;
+  position: relative;
+}
+#resturant_body{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  gap:1rem;
+  position: relative;
+  top: 14px;
+}
+.clear_btn{
+    border-radius: 5px;
+    background-color: #60b246;
+    color: white;
+    text-align: center;
+    padding: 13px 34px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    left: 181px;
+}
+.cart_empty_img{
+    width: 271px;
+    height: 256px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto
+    
+}

@@ -1,0 +1,9 @@
+#resturant_body{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  gap:1rem;
+  position: relative;
+  top: 144px;
+}

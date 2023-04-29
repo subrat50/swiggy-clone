@@ -1,0 +1,20 @@
+.error_img{
+    height: 260px; 
+    /* height: 256px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 260px; */
+}
+#resturant_body{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  gap:1rem;
+  position: relative;
+  top: 14px;
+}
