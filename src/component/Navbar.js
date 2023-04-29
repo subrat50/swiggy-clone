@@ -10,7 +10,7 @@ console.log(cartItems)
       <div class="navbar">
         <div class="logo">
           <Link to="/" style={{ color: "black" }}>
-            Mehefil
+            Mehfil
           </Link>
         </div>
         <ul class="links">
