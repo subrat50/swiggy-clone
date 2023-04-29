@@ -90,39 +90,3 @@ header {
   cursor: pointer;
   display: none;
 }
-@media (max-width: 992px) {
-  .navbar .links {
-    display: none;
-  }
-
-  .navbar .toggle_btn {
-    display: block;
-  }
-
-  .dropdown_menu {
-    display: block;
-  }
-
-  .navbar .logo a {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-
-
-}
-
-@media (max-width: 992px) {
-  .dropdown_menu {
-    left: 2rem;
-    width: unset;
-  }
-  .wrapper{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-
-}

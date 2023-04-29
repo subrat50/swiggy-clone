@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-
+import "./navbar.css"
 function Navbar() {
 const cartItems=useSelector((store)=>store.cart.items);
 console.log(cartItems)
@@ -9,7 +9,9 @@ console.log(cartItems)
     <header>
       <div class="navbar">
         <div class="logo">
-          <Link to="/" style={{color:"black"}}>Mehefil</Link>
+          <Link to="/" style={{ color: "black" }}>
+            Mehefil
+          </Link>
         </div>
         <ul class="links">
           <li>
@@ -24,10 +26,8 @@ console.log(cartItems)
             </Link>
           </li>
         </ul>
-        <div class="toggle_btn">
-          <i class="fa-solid fa-bars"></i>
-        </div>
       </div>
+      
     </header>
   );
 }
