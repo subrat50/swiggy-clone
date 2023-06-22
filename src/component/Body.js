@@ -1,6 +1,7 @@
 import React, { useState ,useEffect} from 'react'
 import { RESTURANTMENUURL } from '../Config';
 import ResturantCard from './ResturantCard';
+import Shimmer from "./Shimmer"
 import "./body.css"
 import { Link } from 'react-router-dom';
 function Body() {
@@ -23,7 +24,7 @@ function Body() {
      return (
        <div id="resturant_body">
          {allRestaurants.length === 0
-           ? <h1>subrat</h1>
+           ? <Shimmer/>
            : allRestaurants.map((res) => {
                return (
                 <Link to={"/restaurant/" + res.data.id} key={res.data.id} style={{ textDecoration: "none" }}>
