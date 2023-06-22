@@ -12,7 +12,7 @@ function Body() {
     }, []);
 
     async function getResturant() {
-      const data = await fetch(RESTURANTMENUURL);
+      const data = await fetch(RESTURANTMENUURL , {mode:'cors'});
       const res = await data.json();
 
       setAllRestaurants(res.data?.cards[2]?.data?.data?.cards);
@@ -22,8 +22,8 @@ function Body() {
     }
      return (
        <div id="resturant_body">
-         {allRestaurants==null || allRestaurants==undefined
-           ? "no data"
+         {allRestaurants.length === 0
+           ? <h1>subrat</h1>
            : allRestaurants.map((res) => {
                return (
                 <Link to={"/restaurant/" + res.data.id} key={res.data.id} style={{ textDecoration: "none" }}>
